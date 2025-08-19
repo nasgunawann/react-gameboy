@@ -1,0 +1,21 @@
+/* src/index.css */
+@import "tailwindcss";
+
+html{
+  overflow-y: hidden;
+  font-family: 'Press Start 2P', monospace;
+}
+@layer utilities {
+  .animate-ping-fast {
+    animation: ping-fast 0.2s ease-out;
+  }
+
+  @keyframes ping-fast {
+    0% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
