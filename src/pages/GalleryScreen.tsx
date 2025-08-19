@@ -14,7 +14,7 @@ const BASE = import.meta.env.BASE_URL;
 // Array photos dinamis
 // Pastikan gambar ada di folder public/images/
 // Gambar harus bernama photo1.jpg, photo2.jpg, dst.
-const photos: Photo[] = Array.from({ length: 16 }, (_, i) => ({
+const photos: Photo[] = Array.from({ length: 4 }, (_, i) => ({
   image: `${BASE}images/photo${i + 1}.jpg`,
 }));
 
