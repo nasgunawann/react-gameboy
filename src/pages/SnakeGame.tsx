@@ -144,7 +144,7 @@ const SnakeGame: React.FC<SnakeGameProps> = ({ onNavigate }) => {
             }`}
           >
             {status === "ready"
-              ? "TEKAN START \nUNTUK MULAI GAME"
+              ? "START UNTUK MULAI \n \n TOMBOL PANAH UNTUK KENDALI"
               : "GAME OVER\nTEKAN START UNTUK MULAI ULANG"}
           </div>
         </div>
